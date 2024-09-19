@@ -14,12 +14,12 @@ export default function Contact() {
   const [agreed, setAgreed] = useState(false);
   return (
     <div>
-      <div className="bg-[url('/images/slider2.jpg')]">
+      <div className="bg-[url('/images/slider2.jpg')] bg-center bg-cover">
         <h1
-          className="container py-64 text-4xl font-semibold tracking-widest text-center
+          className="container py-64 text-6xl font-semibold tracking-widest text-center
         text-white"
         >
-          Contact Us for all your concerns. We are here to serve you
+          Contact Us
         </h1>
       </div>
       <div className="px-6 py-24 sm:py-32 lg:px-8">
@@ -31,8 +31,11 @@ export default function Contact() {
             Please feel free to ask any question
           </p>
         </div>
-        <h3 className="items-center text-center ">Line 1 (+233245365939)</h3>
-        <h3 className="items-center text-center ">Line 2 (+233245365939)</h3>
+        <h3 className="items-center text-center ">Line 1: (+233245365939)</h3>
+        <h3 className="items-center text-center ">Line 2: (+233245365939)</h3>
+        <h3 className="items-center text-center ">
+          {""}Email: paakowden@gmail.com
+        </h3>
         <form className="mx-auto mt-16 max-w-xl sm:mt-20">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div className="mt-2.5">

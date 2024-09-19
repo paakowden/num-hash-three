@@ -60,12 +60,12 @@ const products = [
 const Products = () => {
   return (
     <section>
-      <div className="bg-[url('/images/slider2.jpg')]">
+      <div className="bg-[url('/images/slider2.jpg')] bg-center bg-cover">
         <h1
-          className="container py-64 text-4xl font-semibold tracking-widest text-center
+          className="container py-64 text-6xl font-semibold tracking-widest text-center
         text-white"
         >
-          Our Products are made with safety and hygiene in mind
+          Our Products Instock
         </h1>
       </div>
       <div className="container mx-auto">

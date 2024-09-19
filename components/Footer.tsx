@@ -11,7 +11,7 @@ const Footer = () => {
       flex-col gap-14"
       >
         <div className="flex flex-col items-center justify-center gap-[10%] md:flex-row">
-          <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
+          <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1 ">
             {FOOTER_LINKS.map((columns, index) => (
               <FooterColumn title={columns.title} key={index}>
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">

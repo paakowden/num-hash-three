@@ -2,9 +2,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { desVariants, tagVariants } from "@/utils/animate";
-import { Button } from "./ui/button";
-import { TbArrowUpRight } from "react-icons/tb";
-import Link from "next/link";
 
 const AboutClientPage = () => {
   return (
@@ -56,15 +53,6 @@ const AboutClientPage = () => {
               of a global sensation.
             </motion.p>
           </div>
-          <Link href="/comingsoon">
-            <Button
-              className="inline-flex items-center px-8 py-3 text-white
-        rounded-full shadow-lg hover:bg-gray-800 hover:ring-2 hover:
-        ring-gray-950 ring-offset-2 right-3"
-            >
-              Buy now <TbArrowUpRight className="w-5 h-5 ml-2" />
-            </Button>
-          </Link>
         </motion.div>
         <div className="items-center">
           <Image

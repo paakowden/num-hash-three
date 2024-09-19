@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-30">
+        <p className="text-xl w-full text-center text-gray-30 dark:bg-primary">
           2024 #3 Whiskey | All rights reserved
         </p>
       </div>

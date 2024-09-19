@@ -8,7 +8,7 @@ import Logo from "./Logo";
 import MobileMenu from "./MobileMenu";
 
 const Header = () => {
-  const [header, setHeader] = useState<Boolean>(false);
+  const [header, setHeader] = useState<boolean>(false);
   const pathname = usePathname();
 
   useEffect(() => {

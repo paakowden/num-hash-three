@@ -54,7 +54,7 @@ export const FOOTER_LINKS = [
   },
   {
     title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
+    links: ["Documentation", "Refernce", "Status"],
   },
 ];
 
@@ -63,7 +63,7 @@ export const FOOTER_CONTACT_INFO = {
   links: [
     { label: "Line 1", value: "+233245365939" },
     { label: "Line 2", value: "+233245365939" },
-    { label: "E-mail", value: "paakowden@gmail.com" },
+    { label: "E-mail", value: "3africawhisky@gmail.com" },
   ],
 };
 

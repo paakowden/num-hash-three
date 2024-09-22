@@ -77,7 +77,7 @@ export default function CatalogueSwiper() {
       >
         <SwiperSlide>
           <Image
-            src="/images/swiper.jpg"
+            src="/images/header.jpg"
             width={520}
             height={320}
             alt="Swiper"
@@ -86,7 +86,7 @@ export default function CatalogueSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/images/swiper1.jpg"
+            src="/images/header2.jpg"
             width={520}
             height={220}
             alt="Swiper"
@@ -113,7 +113,7 @@ export default function CatalogueSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/images/slider2.jpg"
+            src="/images/swiper4.jpeg"
             width={520}
             height={220}
             alt="Swiper"

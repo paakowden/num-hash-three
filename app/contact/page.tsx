@@ -4,7 +4,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Switch } from "@headlessui/react";
 import { useState } from "react";
-import { TbArrowUpRight } from "react-icons/tb";
 
 function classNames(...classes: (string | boolean | undefined)[]): string {
   return classes.filter(Boolean).join(" ");
@@ -12,9 +11,34 @@ function classNames(...classes: (string | boolean | undefined)[]): string {
 
 export default function Contact() {
   const [agreed, setAgreed] = useState(false);
+
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+
+    formData.append("access_key", "ad73fad3-3808-4469-9090-062f18095f9f");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    });
+    (event.target as HTMLFormElement).reset();
+    const result = await response.json();
+    if (result.success) {
+      console.log(result);
+    }
+  }
+
   return (
     <div>
-      <div className="bg-[url('/images/slider2.jpg')] bg-center bg-cover">
+      <div className="bg-[url('/images/header2_light.jpg')] bg-center bg-cover">
         <h1
           className="container py-64 text-6xl font-semibold tracking-widest text-center
         text-white"
@@ -32,11 +56,14 @@ export default function Contact() {
           </p>
         </div>
         <h3 className="items-center text-center ">Line 1: (+233245365939)</h3>
-        <h3 className="items-center text-center ">Line 2: (+233245365939)</h3>
+        <h3 className="items-center text-center ">Line 2: (+233273301314)</h3>
         <h3 className="items-center text-center ">
-          {""}Email: paakowden@gmail.com
+          {""}Email: 3africawhisky@gmail.com
         </h3>
-        <form className="mx-auto mt-16 max-w-xl sm:mt-20">
+        <form
+          onSubmit={handleSubmit}
+          className="mx-auto mt-16 max-w-xl sm:mt-20"
+        >
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div className="mt-2.5">
               <Input type="text" name="firstname" placeholder="First Name" />
@@ -98,7 +125,7 @@ export default function Contact() {
             py-3 text-white rounded-full shadow-lg hover:bg-gray-800
             hover:ring-2 hover:ring-gray-950 ring-offset-2"
               >
-                Let&apos;s Talk <TbArrowUpRight className="w-5 h-5 ml-2" />
+                Send
               </Button>
             </div>
           </div>

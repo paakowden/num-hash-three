@@ -17,7 +17,7 @@ const About = () => {
   const scale = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
   return (
     <section>
-      <div className="bg-[url('/images/slider2.jpg')] bg-center bg-cover">
+      <div className="bg-[url('/images/header_light.jpg')] bg-center bg-cover">
         <h1
           className="container py-32 text-6xl font-semibold tracking-widest 
           text-center lg:py-64 text-white "
@@ -50,7 +50,7 @@ const About = () => {
           {/* left Image Section */}
           <motion.div style={{ scale }} ref={ref} className="w-full">
             <Image
-              src="/images/slider3.jpg"
+              src="/images/gallery2.jpg"
               width={700}
               height={600}
               alt="abtimg"
@@ -64,7 +64,7 @@ const About = () => {
             whileInView={"onscreen"}
             variants={tagVariants}
           >
-            <p className="pb-8 tracking-wide mt-6 ">
+            <p className="pb-8 tracking-wide mt-6">
               Welcome to #3 Whiskey where passion meets crafsmanship. Founded in
               in the year 2022, our journey began with a simple mission to bring
               exceptional whiskey to enthusiasts around the world. We specialize
@@ -125,7 +125,7 @@ const About = () => {
               hover:-translate-x-3"
               >
                 <Image
-                  src="/images/slider2.jpg"
+                  src="/images/annan1.jpg"
                   width={200}
                   height={200}
                   alt="team"
@@ -149,7 +149,7 @@ const About = () => {
               hover:-translate-x-3"
               >
                 <Image
-                  src="/images/slider2.jpg"
+                  src="/images/annan1.jpg"
                   width={200}
                   height={200}
                   alt="team"
@@ -173,7 +173,7 @@ const About = () => {
               hover:-translate-x-3"
               >
                 <Image
-                  src="/images/slider2.jpg"
+                  src="/images/annan1.jpg"
                   width={200}
                   height={200}
                   alt="team"

@@ -14,7 +14,7 @@ const Media = () => {
           controls
           className="absolute left-0 w-[90vh] h-full py-2"
         >
-          <source src="/images/video1.mp4" type="video/mp4" />
+          <source src="/images/video2.mp4" type="video/mp4" />
         </video>
       </section>
       <div className="">
@@ -26,7 +26,7 @@ const Media = () => {
           lg:text-5xl inline-block text-primary"
         >
           We will launch our product at Afrikiko night club on the 26th of
-          september, 2024. All are cordially invited. Attair, Dress to kill.
+          september, 2024. All are cordially invited. Dress to kill.
         </motion.h2>
       </div>
     </main>

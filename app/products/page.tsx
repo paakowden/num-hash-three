@@ -9,49 +9,49 @@ import { Button } from "@/components/ui/button";
 const products = [
   {
     id: "1",
-    img: "/images/drinks.jpeg",
+    img: "/images/products.jpg",
     title: "Luxury taste in a bottle",
     price: "$12.00",
   },
   {
     id: "2",
-    img: "/images/num-three5.jpg",
+    img: "/images/products1.jpg",
     title: "Luxury taste in a bottle",
     price: "$12.00",
   },
   {
     id: "3",
-    img: "/images/slider3.jpg",
+    img: "/images/products2.jpg",
     title: "Luxury taste in a bottle",
     price: "$12.00",
   },
   {
     id: "4",
-    img: "/images/slider2.jpg",
+    img: "/images/swiper2.jpeg",
     title: "Luxury taste in a bottle",
     price: "$12.00",
   },
   {
     id: "5",
-    img: "/images/drinks.jpeg",
+    img: "/images/productm.jpeg",
     title: "Luxury taste in a bottle",
     price: "$12.00",
   },
   {
     id: "6",
-    img: "/images/num-three5.jpg",
+    img: "/images/sliderm.jpeg",
     title: "Luxury taste in a bottle",
     price: "$12.00",
   },
   {
     id: "7",
-    img: "/images/slider3.jpg",
+    img: "/images/swiper4.jpeg",
     title: "Luxury taste in a bottle",
     price: "$12.00",
   },
   {
     id: "8",
-    img: "/images/slider2.jpg",
+    img: "/images/sliderqw.jpeg",
     title: "Luxury taste in a bottle",
     price: "$12.00",
   },
@@ -60,12 +60,12 @@ const products = [
 const Products = () => {
   return (
     <section>
-      <div className="bg-[url('/images/slider2.jpg')] bg-center bg-cover">
+      <div className="bg-[url('/images/header1_light.jpg')] bg-center bg-cover">
         <h1
           className="container py-64 text-6xl font-semibold tracking-widest text-center
         text-white"
         >
-          Our Products Instock
+          Products Instock
         </h1>
       </div>
       <div className="container mx-auto">

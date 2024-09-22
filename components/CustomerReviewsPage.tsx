@@ -9,7 +9,7 @@ const posts = [
     title: "Soothes my taste buds",
     href: "#",
     description:
-      "It is a fantastic theme with tons of design and layout options, and the customer service is simply outstanding. They respond immediately and solve any inconvenience, no matter how small.",
+      "Absolutely superb! The attention to detail in both flavor and presentation is evident. This is by far one of the best whiskey selections I have tasted. The complexity and smoothness are perfect. Will definitely be back for more!",
     date: "Mar 16, 2024",
     datetime: "2024-03-16",
     category: { title: "4.7", href: "#" },
@@ -17,7 +17,7 @@ const posts = [
       name: "Natasha",
       location: "Acrra, Ghana",
       href: "#",
-      imgUrl: "/images/slider2.jpg",
+      imgUrl: "/images/annan.jpg",
     },
   },
   {
@@ -25,7 +25,7 @@ const posts = [
     title: "Crafted with love",
     href: "#",
     description:
-      "It is a fantastic theme with tons of design and layout options, and the customer service is simply outstanding. They respond immediately and solve any inconvenience, no matter how small.",
+      "I'm not usually a whiskey drinker, but this brand has converted me. Their blends are so smooth and enjoyable. The customer service was excellent as well. A premium experience all around.",
     date: "Mar 16, 2024",
     datetime: "2024-03-16",
     category: { title: "4.9", href: "#" },
@@ -33,7 +33,7 @@ const posts = [
       name: "Michael Chris",
       location: "Rhoda Islands, Usa",
       href: "#",
-      imgUrl: "/images/slider2.jpg",
+      imgUrl: "/images/annan1.jpg",
     },
   },
   {
@@ -41,7 +41,7 @@ const posts = [
     title: "A great whiskey",
     href: "#",
     description:
-      "It is a fantastic theme with tons of design and layout options, and the customer service is simply outstanding. They respond immediately and solve any inconvenience, no matter how small.",
+      "From the first sip to the last, this was a whiskey to remember. The complexity and depth of flavors are unparalleled. It's clear that the people behind this company care about every aspect of their product.",
     date: "Mar 16, 2024",
     datetime: "2024-03-16",
     category: { title: "4.2", href: "#" },

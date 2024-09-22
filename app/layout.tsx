@@ -5,8 +5,9 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import Header from "@/components/Header";
 
 export const metadata: Metadata = {
-  title: "#3 Whiskey",
+  title: "Whiskey",
   description: "African Whiskey",
+  icons: { icon: "/logo.jpeg" },
 };
 
 export default function RootLayout({

@@ -36,10 +36,10 @@ const AboutClientPage = () => {
               variants={tagVariants}
               className="px-12 pb-4 mt-4 inline-block text-muted-foreground"
             >
-              Experience the joy of exceptional #3 whisky in a well crafted
+              Experience the joy of exceptional #3 whiskey in a well crafted
               bottle, where every glass is filled with passion and warmth. After
-              a hard days work, #3 whisky is in hand to sooth your night. Go for
-              #3 whiskey the best in the industry.
+              a hard days work, #3 whiskey is in hand to sooth your night. Go
+              for #3 whiskey the best in the industry.
             </motion.p>
             <motion.p
               initial="offscreen"

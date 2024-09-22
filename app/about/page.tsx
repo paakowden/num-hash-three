@@ -34,7 +34,7 @@ const About = () => {
             className="text-3xl font-semibold text-center lg:p-10
           lg:text-5xl"
           >
-            Africa&apos;s finest Whisky is now on sale
+            Africa&apos;s finest Whiskey is now on sale
           </motion.h2>
           <motion.p
             initial="offscreen"
@@ -65,12 +65,12 @@ const About = () => {
             variants={tagVariants}
           >
             <p className="pb-8 tracking-wide mt-6">
-              Welcome to #3 Whiskey where passion meets crafsmanship. Founded in
-              in the year 2022, our journey began with a simple mission to bring
-              exceptional whiskey to enthusiasts around the world. We specialize
-              in sourcing, aging, and bottling some of the finest whiskeys,
-              delivering unique taste and unforgettable experiences in every
-              bottle.
+              Welcome to #3 Whiskey where passion meets craftsmanship. Founded
+              in in the year 2022, our journey began with a simple mission to
+              bring exceptional whiskey to enthusiasts around the world. We
+              specialize in sourcing, aging, and bottling some of the finest
+              whiskeys, delivering unique taste and unforgettable experiences in
+              every bottle.
               <br /> <br />
               Our team of experts travel far and wide to select only the best
               barrels from renowned distilleries, ensuring quality and character
@@ -83,7 +83,7 @@ const About = () => {
               are committed to using eco-friendly packaging and supporting
               responsible sourcing practices to minimize our environmental
               footprint. Every bottle of #3 Whiskey is a testament to our
-              dedication to quality, heritage, and crafsmanship. <br /> <br />
+              dedication to quality, heritage, and craftsmanship. <br /> <br />
               Whether you&apos;re a seasoned connoisseur or new to the world of
               whiskey, we invite you to explore our collection and discover the
               rich flavors and stories that each bottle holds. Here&apos;s to
@@ -180,7 +180,7 @@ const About = () => {
                   className="mx-auto rounded-full"
                 />
                 <h2 className="py-4 text-2xl font-semibold uppercase">
-                  Kwamina Acheapong
+                  Kwamina Acheampong
                 </h2>
                 <p>Factory Manager</p>
               </div>

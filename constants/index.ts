@@ -62,8 +62,8 @@ export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
     { label: "Line 1", value: "+233245365939" },
-    { label: "Line 2", value: "+233245365939" },
-    { label: "E-mail", value: "3africawhisky@gmail.com" },
+    { label: "Line 2", value: "+233273301314" },
+    { label: "E-mail", value: "info@3whiskey.com" },
   ],
 };
 

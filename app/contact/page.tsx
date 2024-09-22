@@ -58,7 +58,7 @@ export default function Contact() {
         <h3 className="items-center text-center ">Line 1: (+233245365939)</h3>
         <h3 className="items-center text-center ">Line 2: (+233273301314)</h3>
         <h3 className="items-center text-center ">
-          {""}Email: 3africawhisky@gmail.com
+          {""}Email: info@3whiskey.com
         </h3>
         <form
           onSubmit={handleSubmit}

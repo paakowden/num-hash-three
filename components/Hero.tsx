@@ -39,7 +39,7 @@ const Hero = () => {
             className="lead font-light max-w-[300px] md:max-w-[430px] 
           xl:max-w-[560px] mb-4 text-2xl"
           >
-            Experience the joy of exceptional three drinks in a well crafted
+            Experience the joy of exceptional #3 whiskey in a well crafted
             bottle, where every glass is filled with passion and warmth.
           </p>
           <Link href="/comingsoon">

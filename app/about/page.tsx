@@ -42,7 +42,7 @@ const About = () => {
             variants={desVariants}
             className="text-2xl text-center font-medium pb-10 mt-5"
           >
-            Africa&apos;s finest whiskey has come to stay.
+            A message from Our CEO and Country Director & Manager.
           </motion.p>
         </div>
 
@@ -65,30 +65,42 @@ const About = () => {
             variants={tagVariants}
           >
             <p className="pb-8 tracking-wide mt-6">
-              Welcome to #3 Whiskey where passion meets craftsmanship. Founded
-              in in the year 2022, our journey began with a simple mission to
-              bring exceptional whiskey to enthusiasts around the world. We
-              specialize in sourcing, aging, and bottling some of the finest
-              whiskeys, delivering unique taste and unforgettable experiences in
-              every bottle.
+              Welcome to No.3 African Whiskey, a brand born from seven years of
+              dedication and passion. Established in 2023 and proudly rooted in
+              Ghana, our whiskey represents the fusion of rich African heritage
+              with the finest whiskey-making traditions. With the theme “Drink
+              and Tourism,” we invite you to experience the unique flavors of
+              our whiskey while exploring the beauty and culture of Africa.
+              <br />
+              <br />
+              Every bottle of No.3 African Whiskey tells a story—a journey of
+              craftsmanship, community, and the pursuit of excellence.
+              We&apos;re excited to share this journey with you, offering a
+              taste of Africa that&apos;s as bold and vibrant as the continent
+              itself. Cheers, Kwaku Afful Annan Founder & CEO, No.3 African
+              Whiskey.
+              <br />
+              <br />
+              Cheers,
+              <br /> Kwaku Afful Annan
+              <br />
+              Founder & CEO, No.3 African Whiskey
               <br /> <br />
-              Our team of experts travel far and wide to select only the best
-              barrels from renowned distilleries, ensuring quality and character
-              are at the heart of every batch. We pride ourselves on a
-              meticulous aging and blending process, carefully refining each
-              whiskey to achieve it&apos;s full potential. From the robust and
-              smoky to the smooth and mellow, our diverse range caters to all
-              palates, offering something for every whiskey lover. <br /> <br />
-              Sustainability and integrity are key values in our processes. We
-              are committed to using eco-friendly packaging and supporting
-              responsible sourcing practices to minimize our environmental
-              footprint. Every bottle of #3 Whiskey is a testament to our
-              dedication to quality, heritage, and craftsmanship. <br /> <br />
-              Whether you&apos;re a seasoned connoisseur or new to the world of
-              whiskey, we invite you to explore our collection and discover the
-              rich flavors and stories that each bottle holds. Here&apos;s to
-              the spirit of fine whiskey and the joy of sharing it with those
-              who appreciate the art of well-crafted whiskey.
+              At No.3 African Whiskey, our mission is to create a truly African
+              whiskey that celebrates the spirit and resilience of our people.
+              As the Country Director and Manager, we are proud to oversee the
+              production of a brand that does not only delivers quality but also
+              highlights Ghana&apos;s rich heritage and craftsmanship.
+              <br /> <br />
+              Our theme, “Drink and Tourism,” is a gateway to exploring the best
+              of Africa through every sip. We are excited to share this journey
+              with you and look forward to introducing the world to the
+              exceptional taste and experience that No.3 African Whiskey offers.
+              <br /> <br />
+              Cheers, <br />
+              Ebenezer Kweipeh Annan
+              <br />
+              Country Director and Manager, No.3 African Whiskey.
             </p>
             <Button
               className="inline-flex items-center px-8 py-3 shadow-lg
@@ -112,77 +124,53 @@ const About = () => {
             </motion.h1>
           </div>
 
-          <div className="grid py-8 gap-20 lg:grid-cols-3">
+          <div className="grid py-8 gap-20 lg:grid-cols-2">
             <motion.div
               initial="offscreen"
               whileInView={"onscreen"}
               variants={titleVariants}
-              className="border-2 border-primary"
+              className=""
             >
               <div
-                className="p-4 text-center bg-gray-100 aspect-square
+                className="p-4 text-center aspect-square
               dark:bg-tertiary -m-0.5 transition hover:-translate-y-3
               hover:-translate-x-3"
               >
                 <Image
-                  src="/images/"
+                  src="/images/prof1.jpg"
                   width={200}
                   height={200}
                   alt=""
                   className="mx-auto rounded-full"
                 />
                 <h2 className="py-4 text-2xl font-semibold uppercase">
-                  Prof Afful
+                  Kwaku Afful Annan
                 </h2>
-                <p>CEO / Marketer</p>
+                <p>CEO / Founder</p>
               </div>
             </motion.div>
             <motion.div
               initial="offscreen"
               whileInView={"onscreen"}
               variants={desVariants}
-              className="border-2 border-primary"
+              className=""
             >
               <div
-                className="p-4 text-center bg-gray-100 aspect-square
+                className="p-4 text-center  aspect-square
               dark:bg-tertiary -m-0.5 transition hover:-translate-y-3
               hover:-translate-x-3"
               >
                 <Image
-                  src="/images/"
+                  src="/images/attaquaye.jpg"
                   width={200}
                   height={200}
                   alt=""
                   className="mx-auto rounded-full"
                 />
                 <h2 className="py-4 text-2xl font-semibold uppercase">
-                  Ebenezer Annan
+                  Ebenezer Kweipeh Annan
                 </h2>
-                <p>Manager</p>
-              </div>
-            </motion.div>
-            <motion.div
-              initial="offscreen"
-              whileInView={"onscreen"}
-              variants={tagVariants}
-              className="border-2 border-primary"
-            >
-              <div
-                className="p-4 text-center bg-gray-100 aspect-square
-              dark:bg-tertiary -m-0.5 transition hover:-translate-y-3
-              hover:-translate-x-3"
-              >
-                <Image
-                  src="/images/"
-                  width={200}
-                  height={200}
-                  alt=""
-                  className="mx-auto rounded-full"
-                />
-                <h2 className="py-4 text-2xl font-semibold uppercase">
-                  Kwamina Acheampong
-                </h2>
-                <p>Factory Manager</p>
+                <p>Country Director and Manager</p>
               </div>
             </motion.div>
           </div>

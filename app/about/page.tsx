@@ -125,10 +125,10 @@ const About = () => {
               hover:-translate-x-3"
               >
                 <Image
-                  src="/images/annan1.jpg"
+                  src="/images/"
                   width={200}
                   height={200}
-                  alt="team"
+                  alt=""
                   className="mx-auto rounded-full"
                 />
                 <h2 className="py-4 text-2xl font-semibold uppercase">
@@ -149,10 +149,10 @@ const About = () => {
               hover:-translate-x-3"
               >
                 <Image
-                  src="/images/annan1.jpg"
+                  src="/images/"
                   width={200}
                   height={200}
-                  alt="team"
+                  alt=""
                   className="mx-auto rounded-full"
                 />
                 <h2 className="py-4 text-2xl font-semibold uppercase">
@@ -173,10 +173,10 @@ const About = () => {
               hover:-translate-x-3"
               >
                 <Image
-                  src="/images/annan1.jpg"
+                  src="/images/"
                   width={200}
                   height={200}
-                  alt="team"
+                  alt=""
                   className="mx-auto rounded-full"
                 />
                 <h2 className="py-4 text-2xl font-semibold uppercase">

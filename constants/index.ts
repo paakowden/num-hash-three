@@ -61,13 +61,13 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
-    { label: "Line 1", value: "+233245365939" },
-    { label: "Line 2", value: "+233273301314" },
+    { label: "Line 1", value: "+233594346534" },
+    { label: "Line 2", value: "+233245365939" },
     { label: "E-mail", value: "info@3whiskey.com" },
   ],
 };
 
 export const SOCIALS = {
   title: "Social",
-  links: ["/facebook.png", "/instagram.png", "/x.png", "/youtube.png"],
+  links: ["/instagram.png", "/x.png", "/youtube.png", "/tiktok.png"],
 };

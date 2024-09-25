@@ -55,8 +55,8 @@ export default function Contact() {
             Please feel free to ask any question
           </p>
         </div>
-        <h3 className="items-center text-center ">Line 1: (+233245365939)</h3>
-        <h3 className="items-center text-center ">Line 2: (+233273301314)</h3>
+        <h3 className="items-center text-center ">Line 1: (+233594346534)</h3>
+        <h3 className="items-center text-center ">Line 2: (+233245365939)</h3>
         <h3 className="items-center text-center ">
           {""}Email: info@3whiskey.com
         </h3>

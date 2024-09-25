@@ -3,12 +3,12 @@ import { NAV_LINKS } from "@/constants";
 
 import Link from "next/link";
 
+//<div className="flex items-center gap-2 text-xl font-bold uppercase">
+
 const Navbar = () => {
   return (
     <nav>
       <div className="container flex justify-between items-center py-4 md:pt-6">
-        <div className="flex items-center gap-2 font-bold text-2xl uppercase"></div>
-
         <div className="hidden md:block">
           <ul className="flex items-center gap-6">
             {NAV_LINKS.map((items) => (
@@ -30,6 +30,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-{
-}

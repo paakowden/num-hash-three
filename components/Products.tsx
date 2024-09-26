@@ -10,25 +10,25 @@ const products = [
     id: "1",
     img: "/images/prodhome.jpg",
     title: "Luxury taste in a bottle",
-    price: "$12.00",
+    price: "$15.00",
   },
   {
     id: "2",
     img: "/images/prodhome1.jpg",
     title: "Luxury taste in a bottle",
-    price: "$12.00",
+    price: "$15.00",
   },
   {
     id: "3",
     img: "/images/prodhome2.jpg",
     title: "Luxury taste in a bottle",
-    price: "$12.00",
+    price: "$15.00",
   },
   {
     id: "4",
     img: "/images/prodhome3.jpg",
     title: "Luxury taste in a bottle",
-    price: "$12.00",
+    price: "$15.00",
   },
 ];
 
@@ -70,7 +70,7 @@ export default function Products() {
                 <h1 className="text-2xl font-semibold">{product.title}</h1>
                 <p className="py-4">{product.price}</p>
                 <Button>
-                  <Link href="/comingsoon">Buy now</Link>
+                  <Link href="/sales">Buy now</Link>
                 </Button>
               </div>
             </div>

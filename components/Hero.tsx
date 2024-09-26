@@ -42,7 +42,7 @@ const Hero = () => {
             Experience the joy of exceptional #3 whiskey in a well crafted
             bottle, where every glass is filled with passion and warmth.
           </p>
-          <Link href="/comingsoon">
+          <Link href="/sales">
             <Button
               className="inline-flex items-center px-8 py-3 mt-10 text-white
           rounded-full shadow-lg hover:bg-gray-800 hover:ring-2 

@@ -126,7 +126,7 @@ const Products = () => {
         rounded-full shadow-lg hover:bg-gray-800 hover:ring-2 hover:
         ring-gray-950 ring-offset-2 right-3"
                 >
-                  <Link href="/comingsoon">Buy now </Link>{" "}
+                  <Link href="/sales">Buy now </Link>{" "}
                   <TbArrowUpRight className="w-5 h-5 ml-2" />
                 </Button>
               </motion.div>

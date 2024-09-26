@@ -25,8 +25,8 @@ const Media = () => {
           className="px-12 py-4 text-3xl font-extrabold leading-tight
           lg:text-5xl inline-block text-primary"
         >
-          We will launch our product at Afrikiko night club on the 26th of
-          september, 2024. All are cordially invited. Dress to kill.
+          We will launch our product at Afrikiko night club on the 2nd of
+          october, 2024. All are cordially invited. Dress to kill.
         </motion.h2>
       </div>
     </main>

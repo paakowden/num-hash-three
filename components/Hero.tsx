@@ -12,7 +12,7 @@ const Hero = () => {
     <section className="h-[110vh] xl:h-screen relative text-white z-10">
       {/* hero image */}
       <Image
-        src="/images/header2_light.jpg"
+        src="/images/herobg.jpg"
         fill
         alt="hero"
         className="absolute top-0 left-0 w-full h-full object-cover

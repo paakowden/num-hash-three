@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { desVariants } from "@/utils/animate";
+import Image from "next/image";
 
 const Media = () => {
   return (
@@ -25,8 +26,13 @@ const Media = () => {
           className="px-12 py-4 text-3xl font-extrabold leading-tight
           lg:text-5xl inline-block text-primary"
         >
-          We will launch our product at Afrikiko night club on the 2nd of
-          october, 2024. All are cordially invited. Dress to kill.
+          <Image
+            src="/images/header.jpg"
+            height={500}
+            width={800}
+            alt=""
+            className="rounded-md"
+          />
         </motion.h2>
       </div>
     </main>

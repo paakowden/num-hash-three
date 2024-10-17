@@ -11,7 +11,6 @@ const page = () => {
         whileInView={"onscreen"}
         variants={desVariants}
         className="flex justify-center items-center"
-        //mx-auto max-w-2xl text-center
       >
         <Image
           src="/momo.jpg"

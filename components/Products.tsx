@@ -10,25 +10,25 @@ const products = [
     id: "1",
     img: "/images/prodhome.jpg",
     title: "Luxury taste in a bottle",
-    price: "$15.00",
+    price: "$24.00",
   },
   {
     id: "2",
     img: "/images/prodhome1.jpg",
     title: "Luxury taste in a bottle",
-    price: "$15.00",
+    price: "$24.00",
   },
   {
     id: "3",
     img: "/images/prodhome2.jpg",
     title: "Luxury taste in a bottle",
-    price: "$15.00",
+    price: "$24.00",
   },
   {
     id: "4",
     img: "/images/prodhome3.jpg",
     title: "Luxury taste in a bottle",
-    price: "$15.00",
+    price: "$24.00",
   },
 ];
 

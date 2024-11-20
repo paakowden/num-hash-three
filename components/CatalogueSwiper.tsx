@@ -77,7 +77,7 @@ export default function CatalogueSwiper() {
       >
         <SwiperSlide>
           <Image
-            src="/images/header.jpg"
+            src="/images/3Whiskey_10.jpg"
             width={520}
             height={320}
             alt="Swiper"
@@ -86,7 +86,7 @@ export default function CatalogueSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/images/header2.jpg"
+            src="/images/3Whiskey_7.jpg"
             width={520}
             height={220}
             alt="Swiper"
@@ -95,7 +95,7 @@ export default function CatalogueSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/images/swiper2.jpeg"
+            src="/images/3Whiskey_5.jpg"
             width={520}
             height={220}
             alt="Swiper"
@@ -104,7 +104,7 @@ export default function CatalogueSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/images/swiper3.jpg"
+            src="/images/3Whiskey_3.jpg"
             width={520}
             height={220}
             alt="Swiper"
@@ -113,7 +113,7 @@ export default function CatalogueSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/images/swiper4.jpeg"
+            src="/images/3Whiskey_1.jpg"
             width={520}
             height={220}
             alt="Swiper"

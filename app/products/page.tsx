@@ -9,49 +9,49 @@ import { Button } from "@/components/ui/button";
 const products = [
   {
     id: "1",
-    img: "/images/products.jpg",
+    img: "/images/3Whiskey_1.jpg",
     title: "Luxury taste in a bottle",
     price: "$24.00",
   },
   {
     id: "2",
-    img: "/images/products1.jpg",
+    img: "/images/3Whiskey_3.jpg",
     title: "Luxury taste in a bottle",
     price: "$24.00",
   },
   {
     id: "3",
-    img: "/images/products2.jpg",
+    img: "/images/3Whiskey_5.jpg",
     title: "Luxury taste in a bottle",
     price: "$24.00",
   },
   {
     id: "4",
-    img: "/images/swiper2.jpeg",
+    img: "/images/3Whiskey_7.jpg",
     title: "Luxury taste in a bottle",
     price: "$24.00",
   },
   {
     id: "5",
-    img: "/images/productm.jpeg",
+    img: "/images/3Whiskey_10.jpg",
     title: "Luxury taste in a bottle",
     price: "$24.00",
   },
   {
     id: "6",
-    img: "/images/sliderm.jpeg",
+    img: "/images/3Whiskey_6.jpg",
     title: "Luxury taste in a bottle",
     price: "$24.00",
   },
   {
     id: "7",
-    img: "/images/swiper4.jpeg",
+    img: "/images/3Whiskey_8.jpg",
     title: "Luxury taste in a bottle",
     price: "$24.00",
   },
   {
     id: "8",
-    img: "/images/sliderqw.jpeg",
+    img: "/images/3Whiskey_9.jpg",
     title: "Luxury taste in a bottle",
     price: "$24.00",
   },
@@ -60,7 +60,7 @@ const products = [
 const Products = () => {
   return (
     <section>
-      <div className="bg-[url('/images/header1_light.jpg')] bg-center bg-cover">
+      <div className="bg-[url('/images/3Whiskey_5_dark.jpg')] bg-center bg-cover">
         <h1
           className="container py-64 text-6xl font-semibold tracking-widest text-center
         text-white"

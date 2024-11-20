@@ -17,7 +17,7 @@ const About = () => {
   const scale = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
   return (
     <section>
-      <div className="bg-[url('/images/header_light.jpg')] bg-center bg-cover">
+      <div className="bg-[url('/images/3Whiskey_5_dark.jpg')] bg-center bg-cover">
         <h1
           className="container py-32 text-6xl font-semibold tracking-widest 
           text-center lg:py-64 text-white "

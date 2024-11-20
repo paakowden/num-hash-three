@@ -15,7 +15,7 @@ const Media = () => {
           controls
           className="absolute left-0 w-[90vh] h-full py-2"
         >
-          <source src="/images/video2.mp4" type="video/mp4" />
+          <source src="/images/3 Whiskey - 1.mp4" type="video/mp4" />
         </video>
       </section>
       <div className="">

@@ -17,6 +17,7 @@ const Footer = () => {
           <span className="font-semibold">Line 1: +233594346534</span>
           <span className="font-semibold">Line 2: +233245365939</span>
           <div className="flex gap-6 dark:text-white">
+            <p className="flex text-2xl">Socials</p>
             <Link href="https://www.instagram.com/3whiskeyy/profilecard/?igsh=eml1eWw0cXg0MGhu">
               <Image src="/instagram.png" alt="" width={26} height={26} />
             </Link>

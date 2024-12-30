@@ -1,81 +1,75 @@
-import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="mt-10 container">
-      <div
-        className="padding-container flex w-full
-      flex-col gap-14"
-      >
-        <div className="flex flex-col items-center justify-center gap-[10%] md:flex-row">
-          <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1 ">
-            {FOOTER_LINKS.map((columns, index) => (
-              <FooterColumn title={columns.title} key={index}>
-                <ul className="regular-14 flex flex-col gap-4 text-gray-30">
-                  {columns.links.map((link) => (
-                    <Link href="/" key={link}>
-                      {link}
-                    </Link>
-                  ))}
-                </ul>
-              </FooterColumn>
-            ))}
-            <div className="flex flex-col gap-5">
-              <FooterColumn title={FOOTER_CONTACT_INFO.title}>
-                {FOOTER_CONTACT_INFO.links.map((link) => (
-                  <Link
-                    href="/"
-                    key={link.label}
-                    className="flex gap-4
-                    md:flex-col lg:flex-row"
-                  >
-                    <p className="whitespace-nowrap">{link.label}</p>
-                    <p className="medium-14 whitespace-nowrap text-blue-70">
-                      {link.value}
-                    </p>
-                  </Link>
-                ))}
-              </FooterColumn>
+    <div className="py-24 px-4 md:px-8 lg:px-16 xl:32 2xl:px-64 bg-gray-100 text-sm mt-24 dark:bg-black">
+      {/* TOP */}
+      <div className="flex flex-col md:flex-row justify-between gap-24">
+        {/* LEFT */}
+        <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
+          <Link href="/">
+            <div className="text-2xl tracking-wide">
+              <span className="text-paa">#3</span> Whiskey
             </div>
-            <div className="flex flex-col gap-4 dark:text-white">
-              <FooterColumn title={SOCIALS.title}>
-                <ul className="regular-14 flex gap-4 text-gray-30">
-                  {SOCIALS.links.map((link) => (
-                    <Link
-                      href="/"
-                      key={link}
-                      className="dark:bg-primary-foreground"
-                    >
-                      <Image src={link} alt="logo" width={24} height={24} />
-                    </Link>
-                  ))}
-                </ul>
-              </FooterColumn>
+          </Link>
+          <span className="font-semibold">E-mail: info@3whiskey.com</span>
+          <span className="font-semibold">Line 1: +233594346534</span>
+          <span className="font-semibold">Line 2: +233245365939</span>
+          <div className="flex gap-6 dark:text-white">
+            <Link href="https://www.instagram.com/3whiskeyy/profilecard/?igsh=eml1eWw0cXg0MGhu">
+              <Image src="/instagram.png" alt="" width={26} height={26} />
+            </Link>
+            <Link href="https://vm.tiktok.com/ZMk6jhYEL/">
+              <Image src="/tiktok.png" alt="" width={26} height={26} />
+            </Link>
+            <Link href="https://x.com/3Whiskeyy?s=09">
+              <Image src="/x.avif" alt="" width={26} height={26} />
+            </Link>
+          </div>
+        </div>
+        {/* CENTER */}
+        <div className="hidden lg:flex justify-between w-1/2">
+          <div className="flex flex-col justify-between">
+            <h1 className="font-medium text-lg">COMPANY</h1>
+            <div className="flex flex-col gap-6">
+              <Link href="/about">About Us</Link>
+              <Link href="/products">Products</Link>
+              Affiliates
+              <Link href="/">Home</Link>
+              <Link href="/contact">Contact Us</Link>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-between">
+            <h1 className="font-medium text-lg">HELP</h1>
+            <div className="flex flex-col gap-6">
+              <Link href="#">Customer Service</Link>
+              My Account
+              <Link href="/contact">Find a Store</Link>
+              Legal & Privacy
+              <Link href="/products">Reference</Link>
             </div>
           </div>
         </div>
-        <div className="border bg-gray-20" />
-        <p className="text-xl w-full text-center text-gray-30 dark:bg-primary">
-          2024 #3 Whiskey | All rights reserved
-        </p>
+        {/* RIGHT */}
       </div>
-    </footer>
-  );
-};
-
-type FooterColumnProps = {
-  title: string;
-  children: React.ReactNode;
-};
-
-const FooterColumn = ({ title, children }: FooterColumnProps) => {
-  return (
-    <div className="flex flex-col gap-5">
-      <h4 className="bold-18 whitespace-nowrap">{title}</h4>
-      {children}
+      {/* BOTTOM */}
+      <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-16">
+        <div className="">
+          © 2024 <span className="text-paa">#3</span> Whiskey Shop
+        </div>
+        <div className="flex flex-col gap-8 md:flex-row">
+          <div className="">
+            <span className="text-gray-500 mr-4">Language</span>
+            <span className="font-medium">United States | English</span>
+          </div>
+          <div className="">
+            <span className="text-gray-500 mr-4">Currency</span>
+            <span className="font-medium">$ USD</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

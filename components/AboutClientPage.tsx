@@ -48,9 +48,11 @@ const AboutClientPage = () => {
               className="px-12 pb-4 inline-block text-muted-foreground"
             >
               #3 whiskey, is brewed in Ghana with a distinct flavor and iconic
-              branding. We are working towards leaving an indelible mark on the
-              industry. From our modest beginnings, we want to rise to the level
-              of a global sensation.
+              branding. Every bottle of #3 Whiskey tells a story of
+              craftsmanship, community, and the pursuit of excellence.
+              We&apos;re excited to share this journey with you, offering a
+              taste of Africa that&apos;s as bold and vibrant as the continent
+              itself.
             </motion.p>
           </div>
         </motion.div>
